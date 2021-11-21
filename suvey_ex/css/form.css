@@ -63,7 +63,7 @@ body {
 .btn_wrap {
     display: flex;
     justify-content: center;
-    /* padding-top: 30px; */
+    padding-top: 30px;
 }
 
 .btn_sort{
