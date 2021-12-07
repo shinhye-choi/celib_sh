@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font -->
+    <link rel='stylesheet' type='text/css' href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css'>
+    <link rel="stylesheet" href="https://use.typekit.net/tny8wlt.css">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="./css/zigbang.css">
+
+    <title>celib life &amp; stay, 셀립 라이프 앤 스테이</title>
+</head>
+<body>
+    <header>
+        <div class="container_wrap">
+            <div class="text_wrap">
+                <a href="javascript:void(0);"> <img src="./images/common/logo.png"></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- main 이미지 -->
+    <div class="container_1">
+         <div class="text_wrap">
+            <div class="main_img1">
+                <img src="./images/main/img1_pc.jpg" class="pc_img">
+                <img src="./images/main/img1_mo.jpg" class="mo_img">
+            </div>
+        </div>
+    </div>
+
+    <!-- tab -->   
+        <!--탭(pc ver)-->
+            <div class="container_2 pc_wrap">
+                <div class="container_wrap tab_wrap">
+                    <button class="tablinks active" onclick="openCity(event,'celib-locations')" id="tab-celib" data-id="celib-locations" >
+                        <h1>célib life &amp; stay</h1>
+                        <hr>
+                    </button>
+                    <button class="tablinks" onclick="openCity(event,'celib-select')" id="tab-select" data-id="celib-select" >
+                        <h1>célib select</h1>
+                        <hr>
+                    </button>
+                </div>
+
+                <div class="tabcontent tabcontent_1" id="celib-locations">
+                    <div class="container_wrap tab1">
+                        <div class="slide_container1">
+                            <div class="content_wrap">
+                                 <strong>셀립 라이프앤스테이는</strong><br>나다운, 자유로운, 당당한 삶을 원하는 1인가구를 위해 셀립이 직접 디자인한 주거 경험입니다.<br>
+                                   셀립 지점 별 색다른 주거 경험을 둘러보고, 나에게 맞는 주거를 찾아보세요.
+                                 <span id="dots"></span><span id="more"><br><br>셀립 라이프앤스테이 모든 지점에서는 혼자 살며 가지기 어려웠던 더 넓고 쾌적한 주거 경험을 누릴 수 있습니다.<br>
+                                    여유로운 거실, 주방, 오피스 라운지, 홈트레이닝, 홈시네마 등의 공간들을 제공합니다.<br><br>하루부터 2년까지 개인의 상황에 따라 유연하게 계약 기간을 선택하고, 서울 곳곳의 지점들로 자유로운 이동이 가능합니다.</span>
+                                 <br> <button onclick="myFunction()" id="myBtn">more</button>
+                            </div>
+                            <div class="tab_wrap">
+                                <div class="celib">
+                                    <div class="text">
+                                        <p class="num1" >셀립은평</p>
+                                        <p class="num2" >불광역 1분거리</p>
+                                        <a href="https://celib.kr/eunpyong">자세히 보기 ></a>
+                                    </div>
+                                </div>
+                                <div class="celib">
+                                    <div class="text">
+                                        <p class="num1">셀립여의</p>
+                                        <p class="num2">대방역 7분거리</p>
+                                        <a href="https://celib.kr/yeoui"> 자세히 보기 ></a>
+                                    </div>
+                                </div>
+                                <div class="celib">
+                                    <div class="text">
+                                        <p class="num1">셀립 순라</p>
+                                        <p class="num2">안국역 7분거리</p>
+                                        <a href="https://celib.kr/soonra">자세히 보기 > </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tabcontent tabcontent_2" id="celib-select">
+                    <div class="container_wrap tab2">
+                        <div class="slide_container2">
+                            <div class="content_wrap">
+                                <strong>셀립 셀렉트는</strong><br>호텔을 집처럼 즐길 수 있도록 엄선된 셀립의 호텔 리빙 큐레이션 서비스입니다.<br>고급 호텔식 서비스를 집에서 누리며 호텔의 삶을 일상으로 만들어보세요.
+                            </div>
+                            <div class="tab_wrap">
+                                <div class="celib">
+                                    <div class="text">
+                                        <p class="num1" >셀립 셀렉트 용산</p>
+                                        <p class="num2" >용산역 3분거리</p>
+                                        <a href="https://celib.kr/yongsan">자세히 보기 ></a>
+                                    </div>
+                                </div>
+                                <div class="celib">
+                                    <div class="text">
+
+                                    </div>
+                                </div>
+                                <div class="celib">
+                                    <div class="text">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--탭(pc ver) end-->
+        <!--탭(mo ver)-->
+        <!--탭(mo ver) end-->
+
+
+    <!-- 지점별 정보 --> 
+    <div class="container_3">
+        <div class="container_wrap">
+            <div class="textwrap">
+                <p>셀립 지점 별 계약기간 <br> <span>check point</span></p>
+            </div>
+            <div class="celib_info">
+                <div class="info_wrap">
+                    <ul>
+                        <li>셀립은평<span>3개월, 6개월, 1년 단위 임대차 계약</span></li>
+                        <li>셀립순라<span>1개월 - 12개월 월단위 장기숙박 계약</span></li>
+                        <li>셀립여의<span>1개월 - 12개월 월단위 장기숙박 계약</span></li>
+                        <li>셀립 셀렉트 용산<span>1개월 - 12개월 월단위 장기숙박 계약</span></li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </div>  
+    <footer>
+        <div class="container_wrap">
+            <div class="main_wrap">
+                <div class="footerwrap">
+                    <div class="footer_left">
+                        <h1>셀립 라이프앤스테이 célib life & stay </h1>
+                        <h2>서울특별시 강남구 도산대로 157, 16층(신사동 신웅타워2) 대표자 : 김정현<br>사업자등록번호 : 399-85-01279 대표번호 : 02-743-1013</h2>
+                        <h3>Copyright 2021 <strong>célib</strong>. All rights reserved</h3>
+                    </div>
+                    <div class="footer_right">
+                        <div class="logo">
+                            <img src="./images/main/footer_logo.png" alt="logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="main_wrap" id="mo_wrap">
+                    <div class="footerwrap">
+                        <div class="footer_center">
+                            <h1>셀립</h1>
+                            <h2>서울특별시 강남구 도산대로 157, 16층(신사동 신웅타워2)<br> 대표자: 김정현 사업자등록번호: <span class="footer_num">399-85-01279</span><br>대표번호: <span class="footer_num">02-743-1013</span></h2>
+                            <div class="sns_wrap">
+                                <div>
+                                    <a href="javascript:void(0)">
+                                        <img src="./images/main/footer_logo.png" alt="logo">
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>Copyright 2021 <strong>célib</strong>. All rights reserved</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
+<script>
+    function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "less";
+        moreText.style.display = "inline";
+  }
+}
+
+
+    function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+    }
+</script>

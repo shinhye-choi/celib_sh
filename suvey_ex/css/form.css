@@ -61,9 +61,11 @@ body {
 }
 
 .btn_wrap {
+    border: 1px solid #000;
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    width: 90%;
 }
 
 .btn_sort{
@@ -81,6 +83,7 @@ button,
     border-radius: 10px;
     background-color: #063970;
     color: #fff;
+    /* padding-right: 15px; */
     cursor: pointer;
 }
 
@@ -89,3 +92,47 @@ button:hover,
     color: #063970;
     background-color: #fff;
 }
+
+/*@media screen and (min-width:769px) and (max-width:1099px) 패드 프로~패드 전 사이즈 */
+@media screen and (min-width:769px) and (max-width:1099px) {
+
+}
+
+/*@media (max-width: 768px) 패드 사이즈 */
+@media (max-width: 768px) {
+
+}
+
+
+/*@media (max-width: 375px) 모바일 사이즈*/
+@media (max-width:375px) {
+    #survey{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        margin-top: 50px;
+    }
+    
+    .test {
+        max-width: 375px;
+        height: 100vh; /*  한 질문만 보여지게 하도록 뷰포트의 높이값을 가지도록함 */
+    }
+    .question_container {
+        width: 95%;   
+    }
+    .question_container .number {
+        font-size: 20px;
+    }
+    .question_container .question {
+        font-size: 27px;
+    }
+    .answer {
+        font-size: 15px;
+    }
+    .btn_wrap {
+        width: 95%;
+    }
+}
+
+@media (max-width:320px) {}
