@@ -1,0 +1,1197 @@
+ body {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif'; */
+
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+#mo-img , .mo-img, #mo_wrap, .mo-wrap {
+    display: none;
+}
+
+.content-wrap {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Header */
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #000;
+}
+ 
+header .header-wrap {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center !important;
+}
+header .header-wrap img {
+    width: 120px;
+    height: 50px;
+}
+header .header-wrap a {
+    height: 105px;
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+}
+header .header-wrap .back {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(-0%, -50%);
+    color: #fff ;
+}
+header .header-wrap a span {
+    position: absolute;
+    top: 50%;
+    left: 5%;    
+    transform: translate(0, -50%);
+    color: #fff;
+}
+header .header-wrap .back img {
+    width: 25px;
+    height: 22px !important;
+    margin-right: 10px;
+}
+footer {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    text-align: center;
+    background: #1c1c1c;
+    text-align: left;
+}
+footer .footer-wrap {
+    width: 100%;
+    padding: 30px;
+    color: #fff !important;
+}
+footer .footer-wrap img {
+    width: 110px;
+    padding-bottom: 20px;
+}
+footer .footer-text .footer-main {
+    color: #FFFFFF;
+}
+footer .footer-wrap p {
+    /* opacity: 60%; */
+    color: #ffffff60;
+}
+footer .footer-text {
+    display: flex;
+}
+footer .footer-wrap p:nth-child(1) {
+    font-size: 21px;
+    font-weight: 300;
+    opacity: 1;
+}
+footer .footer-wrap .footer-add{
+    font-size: 18px;
+    /* opacity: 60%; */
+    margin-top: 22px;
+    padding-left: 30px;
+}
+footer .footer-wrap .footer-last {
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 70px;
+}
+
+/*  신청하기 sumbit  */
+.warpper .aside {
+    width: 100%;
+    max-width: 360px;
+    top: 132px;
+    /* left: calc(50% + 185px); */
+    left: max( calc(50% + 185px) , 750px );
+    display: block;
+    position: fixed;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);  
+}
+.warpper .aside .submit-img {
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/yongsan/submit-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aside .submit-text {
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #232128;
+}
+.aside .submit-text .phone p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+}
+.aside .submit-text .phone input {
+    width: 90%;
+    border: 1px solid #fff !important;
+    padding: 15px 10px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.68);
+}
+.aside .submit-text .phone input ::placeholder {
+    color: black !important;
+}
+.aside .submit-text .info-wrap {
+    width: 100%;
+    padding: 2vh 0;
+    color: #fff ;
+    font-size: 12px;
+    text-align: center;
+}
+.aside .submit-text .submit {
+    width: 100%;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    border: 2px solid #000;
+    box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    color: #222;
+}
+
+/*  메인 이미지  */
+.container {
+    width: 100%;
+    max-width: 700px;
+}
+.content-1 {
+    width: 100%;
+    height: 963px;
+    margin: 0;
+    padding: 0;
+    margin-top: 130px;
+}
+.content-1 img {
+    width: 100%;
+}
+
+/*  용산 정보  */
+.content-2 {
+    background: #141414;
+}
+.content-2 .text-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    line-height: 0;
+    padding: 20px 30px;
+    color: #fff;
+    height: 154px;
+    box-sizing: border-box;
+}
+.content-2 .text-wrap p {
+    font-size: 29px;
+    text-align: left;
+}
+.content-2 .text-wrap .text-wrap2 p:nth-child(1) {
+    font-size: 29px;
+    text-align: right;
+}
+.content-2 .text-wrap .text-wrap2 .text2 {
+    font-size: 26px !important;
+    text-align: right;
+    padding: 10px 0;
+}
+
+/*  용산 소개  */
+.content-3 {
+    width: 100%;
+    height: auto;
+    background: #f9f9f9;
+    padding: 145px 0;
+}
+.content-3 .text-wrap img {
+    width: 170px;
+}
+.content-3 .text-wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-3 .text-wrap p {
+    font-size: 27px;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #3c3c3c;
+}
+
+/* 용산에 살면 좋은점 */
+.content-4 {
+    width: 100%;
+    height: auto;
+    padding: 125px 0;
+    text-align: center;
+    background: #3c3c3c;
+}
+.content-4 .text-wrap {
+    width: 100%;
+}
+.content-4 .text-wrap > p {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+.content-4 .text-wrap ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0 80px;
+}
+.content-4 .text-wrap ul li {
+    width: 517px;
+    height: 153px;
+    background: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid #000;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.content-4 .text-wrap ul li:last-child {
+    margin-bottom: 0;
+}
+.content-4 .text-wrap ul li .main {
+    font-size: 27px;
+    line-height: 35px;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+}
+.content-4 .text-wrap ul li .sub {
+    font-size: 23px;
+    line-height: 30px;
+    opacity: 60%;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+}
+/*  용산 사진   */
+.content-5 {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-5 .img-wrap {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+.content-5 .img-wrap img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* 용산 방 소개  */
+.content-6 {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+.content-6 .content-wrap {
+    background-color: #F9F9F9;
+}
+.content-6 .text-wrap {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #3c3c3c;
+    background:#F9F9F9 ;
+    padding: 100px 0 40px 0;
+}
+.content-6 .text-wrap h2 {
+    font-size: 45px;
+    font-weight: 400;
+}
+.content-6 .text-wrap p{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 13px;
+    opacity: 80%;
+}
+.content-6 .modal-wrap {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.content-6 .modal-wrap .room-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 240px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 10px #bebebe;
+}
+.content-6 .modal-wrap .room-wrap:last-child {
+    margin-bottom: 80px;
+}
+.content-6 .modal-wrap .text-wrap {
+    text-align: left;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+.content-6 .modal-wrap .text-wrap h3 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #3c3c3c;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.content-6 .modal-wrap .text-wrap .size-text {
+    color: #757575;
+    opacity: 50%;
+    margin-bottom: 10px;
+}
+.content-6 .modal-wrap .text-wrap a {
+    margin-top: 15px;
+    color: #3c3c3c;
+}
+
+.content-6 .modal-wrap .img-wrap img {
+    /* width: 100%; */
+}
+
+/*   모달창   */
+
+.content-6 .modal {
+    /* display: none; */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.content-6 .modal-wrap-2 {
+    /* display: none; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 970px;
+    height: 760px;
+    min-height: 680px;
+    background: rgb(160, 160, 160);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+.content-6 .modal-text {
+    background: #1e1e1e;
+    padding: 20px;
+    margin: 0;
+    height: 120px;
+    /* border: 1px solid white; */
+}
+.content-6 .modal-text h3 {
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.content-6 .modal-text hr {
+    background: #fff;
+    width: 100%;
+    height: 1px;
+    opacity: 60%;
+    margin: 10px 0 20px 0;
+}
+.content-6 .tab-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.content-6 .tab-wrap .tab:last-child {
+    margin: 0;
+}
+.content-6 .tab-wrap .tab {
+    width: 95px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    padding: 0 15px;
+    transition: 0.5s;
+    margin-right: 15px;
+    color: #fff;
+}
+.content-6 .tab-gallery {
+    width: 970px;
+    max-width: 970px;
+    min-width: 90%;
+    height: 600px;
+    min-height: 400px;
+    padding-top: 40px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+.content-6 .tab-gallery .big-img {
+    /* border: 1px solid red; */
+    padding-left: 30px;
+    width: 700px;
+}
+.content-6 .tab-gallery .big-img img,
+.content-6 .tab-gallery .small-img img  {
+    width: 100%;
+}
+.content-6 .tab-gallery .small-img {
+    width: 120px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.content-7 {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    padding: 100px 0;
+    background-color: #323036;
+}
+.content-7 .text-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 60px;
+}
+.content-7 .text-wrap h2 {
+    font-size: 33px;
+    line-height: 39px;
+    color: white;
+    font-weight: normal;
+    padding-bottom: 40px;
+}
+.content-7 .text-wrap ul {
+    padding: 0;
+    margin: 0;
+}
+.content-7 .text-wrap ul li {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 50px;
+    list-style: disc;
+}
+.content-7 .text-wrap ul li.color_change {
+    color: #8D6ACB !important;
+}
+.content-7 .text-wrap ul li p {
+    color: #8a8a8a;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+}
+.content-8 {
+    width: 100%;
+    max-width: 700px;
+}
+.content-8 img {
+    width: 100%;
+}
+.content-9 {
+    width: 100%;
+    max-width: 700px;
+}
+.content-9 img{
+    width: 100%;
+}
+.content-9 .content-wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.content-9 .content-wrap .map-wrap {
+    display: flex;
+    padding-bottom: 100px;
+    /* border: 1px solid #000; */
+}
+.content-9 .content-wrap .map-wrap .icon-wrap  {
+    margin-left: 40px;
+}
+.content-9 .content-wrap .map-wrap .icon-wrap img {
+    width: 35px;
+   margin: 20px 20px 0 0;
+}
+.content-9 .text-wrap .text-yongsan h2 {
+    font-size: 43px;
+    font-weight: 500;
+    margin: 0;  
+    margin-top: 30px;
+}
+.content-9 .text-wrap .text-yongsan p {
+    font-size: 37px;
+    font-weight: normal;
+    color: #3C3C3C60;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+.content-9 .text-wrap .text-yongsan {
+    margin-left: 40px;
+}
+.content-9 .text-wrap .text-yongsan hr{
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+.content-9 .text-wrap .text-yongsan2 h3 {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0;
+    padding: 15px 0;
+}
+.content-9 .text-wrap .text-yongsan2 h3 .sub1 {
+    color: #1552C9 !important;
+}
+.content-9 .text-wrap .text-yongsan2 h3 .middle {
+    color: #39C6C6;
+}
+.content-9 .text-wrap .text-yongsan2 h3 .sub4 {
+    color: #46A6EB;
+}
+.content-9 .text-wrap .text-yongsan2 h3 .walk {
+    font-size: 35px;
+    color: #bcbcbc;
+    padding-top: 10px;
+}
+
+@media screen and (min-width:769px) and (max-width:1046px) {
+
+    header {
+        width: 100%;
+    }
+    header .header-wrap {
+        width: 100%;
+    }
+    .content-wrap {
+        width: 92%;
+        max-width: 950px;
+        /* border: 1px solid red; */
+    }
+}
+
+@media (max-width: 768px) {
+
+    header .header-wrap {
+        width: 100%;
+    }
+    header .header-wrap {
+        width: 100%;
+    }
+    header .header-wrap span {
+        margin-left: 10px;
+    }
+    .content-wrap {
+        width: 92%;
+        max-width: 800px;
+    }
+    footer {
+        width: 100%;
+        max-width: 800px;
+    }
+    footer .content-wrap {
+       width: 100%;
+    }
+    .warpper .content-wrap {
+        min-width: 92%;
+        width: 85%;
+    }
+    .warpper .container {
+        max-width: 100%;
+        width: 100%;
+    }
+    .warpper .aside {
+        display: none;
+    }
+    .content-1 {
+        height: auto;
+        margin-top: 0px;;
+    }
+    .content-2 .text-wrap {
+        width: 100%;
+        margin-top: 0;
+    }
+    .content-2 .text-wrap p {
+        font-size: 25px !important;
+    }
+    .content-2 .text-wrap .text-wrap2 p {
+        font-size: 25px;
+    }
+    .content-2 .text-wrap .text-wrap2 .text2 {
+        font-size: 22px;
+    }
+    .content-4 {
+        width: 100%;
+    }
+    .content-4 .text-wrap p {
+        font-size: 30px;
+    }
+    .content-4 .text-wrap ul li {
+        width: 100%;
+        min-width: 70%;
+    }
+    .content-4 .text-wrap ul li .main {
+        font-size: 25px;
+    }
+    .content-4 .text-wrap ul li .sub {
+        font-size: 20px;
+    }
+    .content-5 {
+        width: 92%;
+        max-width: 800px;
+        margin: 0 auto;
+    }   
+    .content-5 .content-wrap .img-wrap {
+        width: 100%;
+    }
+    .content-6 {
+        width: 100%;
+        max-width: 800px;
+    }
+    .content-6 .content-wrap {
+        width: 100%;
+        max-width: 800px;
+    }
+
+    /*   모달   */
+
+    .content-6 .modal-wrap-2 {
+        width: 500px;
+        height: 700px;
+        /* border: 1px solid red; */
+    }
+    .content-6 .modal-text {
+        height: 155px;
+        min-height: 120px;
+    }
+    .content-6 .modal-text h3 {
+        font-size: 25px;
+    }
+    .content-6 .tab-wrap {
+        height: auto;
+    }
+    .content-6 .tab-wrap .tab {
+        font-size: 16px;
+        font-weight: 300;
+        width: 130px;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .content-6 .tab-gallery {
+        /* border: 5px solid red; */
+        width: 100%;
+        height: 72%;
+        min-height: 50%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .content-6 .tab-gallery .big-img {
+        width: 90%;
+        float: left;
+        height: auto;
+    }
+    .content-6 .tab-gallery .small-img {
+        /* border: 5px solid red; */
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+    .content-6 .tab-gallery .small-img img {
+        width: 90px; 
+        margin-top: 20px;
+    }
+    .content-6 .tab-gallery .small-img img:first-child {
+        margin-left: 10px;
+    }
+
+    .content-7 {
+        width: 100%;
+        max-width: 800px;
+    }
+    .content-8 {
+        width: 100%;
+        max-width: 800px;
+    }
+    .content-8 .content-wrap {
+        width: 100%;
+    }
+    .content-9 {
+        width: 100%;
+        max-width: 800px;
+    }
+    .content-9 .content-wrap {
+        width: 100%;
+    }
+
+    .content-10 {
+        display: block;
+        width: 100%;
+        max-width: 800px;
+    }
+    .content-10 .content-wrap {
+        width: 100%;
+
+    }
+    .content-10 .content-wrap .submit-text {
+        width: 100%;
+        height: auto;
+        background: #383344;
+        text-align: center;
+        padding: 20px;
+    }
+    .content-10 .content-wrap .submit-img {
+        width: 100%;
+    }
+    .content-10 .content-wrap  .submit-img img {
+        width: 100%;
+    }
+    .content-10 .content-wrap .submit-text .phone p {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 42px;
+        color: white;
+    }
+    .content-10 .content-wrap .submit-text .phone input {
+        border: 1px solid #000000;
+        color: black;
+        border-radius: 2px;
+        background: rgba(255, 255, 255, 0.68);
+        padding: 15px 10px;
+        width: 60%;
+    }
+    .content-10 .content-wrap .info-wrap {
+        width: 50%;
+        margin:  0 auto;
+    }
+
+    .content-10 .submit-text .submit {
+        width: 60%;
+        margin:  0 auto;
+        padding: 17px 0;
+        display: block;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500;
+        border: 2px solid #000;
+        box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.2);
+        background: #fff;
+        color: #222;
+        }
+    .info-wrap-main {
+        color: white;
+        padding: 20px 0;
+    }
+    .content-10 .submit-text form {
+        padding: 10px 0 30px;
+    }
+}
+@media (max-width: 535px) {
+
+        .mo-wrap , .mo-img , #mo-wrap , #mo-wrap {
+            display: block;
+        }
+        .pc-wrap , .pc-img , #pc-wrap , #pc-wrap{
+            display: none;
+        }
+    
+        .container_wrap {
+            max-width: 100%;
+            width: 92%;
+        }
+
+        header .header-wrap {
+            width: 100%;
+        }
+        header .header-wrap {
+            width: 100%;
+        }
+        header .header-wrap,
+        header .header-wrap a {
+            height: 70px;
+        }
+        header .header-wrap img {
+            width: 85px;
+            height: 40px;
+        }
+        header .header-wrap a span {
+            font-size: 15px;
+            padding-left: 15px;
+        }
+        .content-1 {
+            width: 100%;
+            margin-top: 70px;
+        }
+        .content-1 img {
+            width: 100%;
+        }
+        .content-2 .text-wrap {
+            /* border: 1px solid red; */
+            padding: 20px 0;
+            height: 120px;
+        }
+        .content-2 .text-wrap p {
+            font-size: 20px;
+        }
+        .content-2 .text-wrap .text-wrap2 p:nth-child(1) {
+            font-size: 20px;
+        }
+        .content-2 .text-wrap .text-wrap2 .text2 {
+            font-size: 15px !important;
+        }
+
+        .content-3 {
+            height: auto;
+            padding: 88px 0;
+        }
+        .content-3 .text-wrap img {
+            width: 150px;
+        }
+        .content-3 .text-wrap p {
+            font-size: 18px;
+        }
+        .content-4  {
+            width: 100%;
+            height: auto;
+            padding: 100px 0;
+        }
+        .content-4 .text-wrap {
+            width: 100%;
+            min-width: 50%;
+            text-align: center;
+        }
+        .content-4 .text-wrap p {
+            font-size: 24px;
+            line-height: 0;
+            margin-bottom: 20px;
+        }
+        .content-4 .text-wrap ul li {
+            width: 300px;
+            height: 100px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+
+        .content-4 .text-wrap ul li .main {
+            font-size: 18px;
+            padding-top: 15px;
+        }
+        .content-4 .text-wrap ul li .sub {
+            font-size: 13px;
+        }
+        .content-5 {
+            padding: 80px 0;
+        }
+        .content-6 {
+            height: auto;
+            padding: 65px 0;
+        }
+        .content-6 .text-wrap h2 {
+            font-size: 20px;
+        }
+        .content-6 .text-wrap p {
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 500;
+        }
+        .content-6 .modal-wrap .room-wrap {
+            width: 90%;
+            box-sizing: border-box;
+        }
+        .content-6 .content-wrap .modal-wrap .text-wrap {
+            padding-left: 20px;
+            width: 40%;
+        }
+        .content-6 .content-wrap .modal-wrap h3 {
+            font-size: 20px;
+        }
+        .content-6 .content-wrap .modal-wrap .img-wrap {
+            /* padding-right: 30px; */
+        }
+        .content-6 .content-wrap .modal-wrap .img-wrap img {
+            width: 100%;
+            max-width: 220px;
+            padding-right: 20px;
+        }
+        .content-6 .content-wrap .modal-wrap .text-wrap .price-text,
+        .content-6 .content-wrap .modal-wrap .text-wrap .size-text,
+        .content-6 .content-wrap .modal-wrap .text-wrap a {
+            margin: 0;
+        }
+
+        .content-6 .modal-wrap-2 {
+            width: 300px;
+            height: 450px;
+            min-height: 360px;
+        }
+        .content-6 .modal-text {
+            height: 140px;
+            min-height: 120px;
+        }
+        .content-6 .modal-text h3 {
+            font-size: 18px;
+        }
+        .content-6 .tab-wrap .tab {
+            font-size: 12px;
+            font-weight: 300;
+            width: 80px;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        .content-6 .tab-gallery {
+            width: 100%;
+            height: 72%;
+            min-height: 50%;
+        }
+        .content-6 .tab-gallery .big-img {
+            padding: 0;
+            margin: 0 auto;
+        }
+        .content-6 .tab-gallery .small-img {
+            /* border: 2px solid blue; */
+        }
+        .content-6 .tab-gallery .small-img img {
+            width: 50px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content-7 {
+            height: auto;
+            padding: 80px 0;
+        }
+        .content-7 .text-wrap {
+            width: 100%;
+        }
+        .content-7 .text-wrap h2 {
+            font-size: 20px;
+            line-height: 28px;
+        }
+        .content-7 .text-wrap ul li {
+            font-size: 14px;
+            line-height: 32px;
+            opacity: 100%;
+        }
+        .content-7 .text-wrap ul li p {
+            font-size: 13px;
+        }
+        .content-9 {
+            height: auto;
+        }
+        .content-9 .content-wrap {
+            width: 100%;
+        }
+        .content-9 .content-wrap .text-yongsan h2,
+        .content-9 .content-wrap .text-yongsan p,
+        .content-9 .content-wrap .text-yongsan2 h3,
+        .content-9 .content-wrap .text-yongsan2 h3 .walk {
+            font-size: 20px;
+        }
+        .content-9 .content-wrap .map-wrap .icon-wrap img {
+            width: 25px;
+        }
+        .content-10 {
+            height: auto;
+        }
+        .content-10 .content-wrap .submit-text .phone p {
+            font-size: 15px;
+            line-height: 24px;
+        }
+        .content-10 .submit-text .submit {
+            width: 50%;
+            font-size: 15px;
+        }
+        footer {
+            width: 100%;
+        }
+        footer .footer-wrap .footer-add {
+            font-size: 14px;
+        }
+    }
+@media screen and (min-width:376px) and (max-width:480px) {
+    .content-2 .text-wrap p {
+        font-size: 18px !important;
+    }
+    .content-2 .text-wrap .text-wrap2 p:nth-child(1) {
+        font-size: 18px !important;
+    }
+    .content-2 .text-wrap .text-wrap2 .text2 {
+        font-size: 13px !important;
+    }
+    .content-3 .text-wrap p {
+        font-size: 15px;
+    }
+    .content-4 .text-wrap ul {
+        padding: 0;
+    }
+    .content-6 .modal-wrap .room-wrap {
+        /* border: 1px solid red; */
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .content-6 .content-wrap .modal-wrap .text-wrap {
+        /* border: 1px solid #000; */
+        padding-left: 5px;
+        width: 30%;
+    }
+    .content-6 .content-wrap .modal-wrap .img-wrap {
+        /* border: 1px solid #000; */
+        width: 60%;
+    }
+}
+@media (max-width:375px) {
+    header .header-wrap {
+        width: 100%;
+    }
+    header .header-wrap {
+        width: 100%;
+    }
+    header .header-wrap,
+    header .header-wrap a {
+        height: 70px;
+    }
+    header .header-wrap a span {
+        font-size: 14px;
+        padding-left: 15px;
+    }
+    .content-2 .text-wrap {
+        border: 1px solid red;
+        padding: 20px 0;
+        width: 300px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .content-2 .text-wrap p {
+        font-size: 18px !important;
+    }
+    .content-2 .text-wrap .text-wrap2 p:nth-child(1) {
+        font-size: 18px !important;
+    }
+    .content-2 .text-wrap .text-wrap2 .text2 {
+        font-size: 13px !important;
+    }
+    .content-3 .text-wrap p {
+        font-size: 15px;
+    }
+    .content-4 .content-wrap {
+        border: 1px solid red;
+    }
+    .content-4 .content-wrap p:first-child{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .content-4 .text-wrap ul {
+        padding: 0;
+    }
+
+    .content-6 .modal-wrap .room-wrap {
+        /* border: 1px solid red; */
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .content-6 .content-wrap .modal-wrap .text-wrap {
+        /* border: 1px solid #000; */
+        padding-left: 5px;
+        width: 30%;
+    }
+    .content-6 .content-wrap .modal-wrap .img-wrap {
+        /* border: 1px solid #000; */
+        width: 60%;
+    }
+    .content-7 .text-wrap h2 {
+        font-size: 15px;
+        line-height: 28px;
+        padding-bottom: 10px;
+    }
+    .content-7 .text-wrap ul li {
+        font-size: 10px;
+        line-height: 32px;
+        opacity: 100%;
+    }
+    .content-7 .text-wrap ul li p {
+        font-size: 10px;
+    }
+    .content-10 .submit-text .info-wrap-main span {
+        font-size: 13px !important;
+    }
+    footer {
+        width: 100%;
+    }
+    footer .footer-wrap .footer-main {
+        border: 1px solid #000;
+        font-size: 12px;
+    }
+    footer .footer-wrap .footer-add,
+    footer .footer-wrap .footer-last {
+        font-size: 12px;
+    }
+}
+
+
+
+
+ 
